@@ -5,7 +5,7 @@ describe('Radio Buttons Automation', async () => {
     await browser.url('https://www.rahulshettyacademy.com/loginpagePractise/');
     //await $("(//label[@class='customradio']//span[@class='checkmark'])[2]").click();
 
-    // Following is another way of selecting multiple elementes.
+    // Following is another way of selecting multiple elements.
     // $$ returns array of webElements. You can then select [index] for element
     const radioButtons = await $$(
       "//label[@class='customradio']//span[@class='checkmark']"
@@ -13,5 +13,5 @@ describe('Radio Buttons Automation', async () => {
     radioButtons[1].click();
 
     await browser.pause(2000);
-  }); // end of it
-}); // end of describe
+  }); // end of "it"
+}); // end of "describe"

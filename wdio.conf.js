@@ -22,7 +22,7 @@ exports.config = {
   //
 
   //specs: ['./test/specs/**/*.js'],  // <--- Return to default value if u mess something up
-  specs: ['./test/specs/RadioButtons.js'],
+  specs: ['./test/specs/SelectDropdown.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
