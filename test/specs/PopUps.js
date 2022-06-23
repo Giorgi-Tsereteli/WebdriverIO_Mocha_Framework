@@ -19,7 +19,9 @@ describe('Pop Up Windows Automation', async () => {
   // can I create second it block and access my locators and vars from first?
 });
 
-// waitForDisplayed is used to wait for element to load. Then u begin interacting with it.
+// waitForDisplayed is used to wait for element to load. Then u begin interacting with it or with page itself
 // expect is like Assert.assertTrue/False in Java. You simply verify something. Mehtod names for chaining are a bit different
+// Do NOT confuse with Assert.assertEquals("string1","string2")
+// Comparing 2 values is not possible with plain wdio. U need chai library to create such logic
 
 // Everything else works in similar way as Selenium with Java

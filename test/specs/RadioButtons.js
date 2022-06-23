@@ -13,5 +13,5 @@ describe('Radio Buttons Automation', async () => {
     radioButtons[1].click();
 
     await browser.pause(2000);
-  }); // end of "it"
-}); // end of "describe"
+  });
+});
