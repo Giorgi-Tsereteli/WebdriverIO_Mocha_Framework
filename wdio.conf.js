@@ -22,7 +22,7 @@ exports.config = {
   //
 
   //specs: ['./test/specs/**/*.js'],  // <--- Return to default value if u mess something up
-  specs: ['./test/specs/TableSort_Arrays.js'],
+  specs: ['./test/specs/e2e_example.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
