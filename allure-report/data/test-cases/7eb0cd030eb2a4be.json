@@ -1,0 +1,172 @@
+{
+  "uid" : "7eb0cd030eb2a4be",
+  "name" : "Switch to second window Sanity",
+  "fullName" : "Handling multiple windows.Switch to second window Sanity",
+  "historyId" : "2aeb83b210fa53f4d3e14f0e1666bdb",
+  "time" : {
+    "start" : 1656278118978,
+    "stop" : 1656278120514,
+    "duration" : 1536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+  "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/Users/home/Documents/git/webdriverio/test/specs/WindowHandles.js:7:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+    "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/Users/home/Documents/git/webdriverio/test/specs/WindowHandles.js:7:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656278118981,
+        "stop" : 1656278120020,
+        "duration" : 1039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8de97b9636068ff",
+        "name" : "Request",
+        "source" : "8de97b9636068ff.json",
+        "type" : "application/json",
+        "size" : 68
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1656278120020,
+        "stop" : 1656278120023,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c1b3b25089ac079",
+        "name" : "Response",
+        "source" : "1c1b3b25089ac079.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/window/handles",
+      "time" : {
+        "start" : 1656278120023,
+        "stop" : 1656278120026,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab75619e9c4f749",
+        "name" : "Response",
+        "source" : "ab75619e9c4f749.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656278120027,
+        "stop" : 1656278120514,
+        "duration" : 487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c632f96d433ef61b",
+        "name" : "Screenshot",
+        "source" : "c632f96d433ef61b.png",
+        "type" : "image/png",
+        "size" : 897710
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "Handling multiple windows"
+  }, {
+    "name" : "testClass",
+    "value" : "Handling multiple windows"
+  }, {
+    "name" : "testMethod",
+    "value" : "Switch to second window Sanity"
+  }, {
+    "name" : "package",
+    "value" : "Handling multiple windows"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7f64813d35ec1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656276462358,
+        "stop" : 1656276474281,
+        "duration" : 11923
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7eb0cd030eb2a4be.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

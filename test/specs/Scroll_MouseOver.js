@@ -10,7 +10,8 @@ describe('Functional Testing', async () => {
     await $("(//*[@class='mouse-hover-content']/a)[1]").click();
     await browser.pause(1000);
   });
-  it('Alert Handling', async () => {
+  it('Alert Handling', async function () {
+    this.retries(3); // retry mechanism for Flaky tests. Don't forget to replace ()=> by function() { }
     await browser.url('https://rahulshettyacademy.com/AutomationPractice/');
     await $("//*[@id='name']").setValue('helloooo');
     await $("//*[@id='alertbtn']").click();

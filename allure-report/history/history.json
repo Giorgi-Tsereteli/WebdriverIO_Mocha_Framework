@@ -1,0 +1,22 @@
+{
+  "2aeb83b210fa53f4d3e14f0e1666bdb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7eb0cd030eb2a4be",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1656278118978,
+        "stop" : 1656278120514,
+        "duration" : 1536
+      }
+    } ]
+  }
+}

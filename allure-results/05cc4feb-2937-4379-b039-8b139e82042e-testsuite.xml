@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656284430537' stop='1656284432199'>
+    <name>Handling multiple windows</name>
+    <title>Handling multiple windows</title>
+    <test-cases>
+        <test-case start='1656284430537' status='failed' stop='1656284432198'>
+            <name>Switch to second window Sanity</name>
+            <title>Switch to second window Sanity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps>
+                <step start='1656284430538' status='passed' stop='1656284431705'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3269c881-8941-4462-a74b-3ee5e5cf5674-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656284431705' status='passed' stop='1656284431709'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='2ffe1d9d-9b06-4de9-b23b-781705066a0d-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656284431709' status='passed' stop='1656284431711'>
+                    <name>GET /session/:sessionId/window/handles</name>
+                    <title>GET /session/:sessionId/window/handles</title>
+                    <attachments>
+                        <attachment title='Response' source='1f3cabb4-05c2-4174-beb4-32acaccf370c-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656284431712' status='passed' stop='1656284432198'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cd56f0e5-b4e1-4aeb-941d-264909edd5a3-attachment.png' type='image/png' size='897710'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "handle" parameter of command switchToWindow
+                Expected: string
+                Actual: undefined
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window
+                </message>
+                <stack-trace>Error: Malformed type for "handle" parameter of command switchToWindow
+                Expected: string
+                Actual: undefined
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window
+                
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/home/Documents/git/webdriverio/test/specs/WindowHandles.js:7:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
