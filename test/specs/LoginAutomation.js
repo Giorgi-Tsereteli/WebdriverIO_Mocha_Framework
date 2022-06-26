@@ -8,7 +8,7 @@ describe('Ecommerce Application', async () => {
     await $("//input[@name='username']").setValue('george_qaengineer@gmail.com');
     await $("//*[@id='password']").setValue('somepassword213');
     await $("//*[@id='signInBtn']").click();
-    //await browser.pause(3000);
+
     await console.log(await $("//div[contains(@class,'alert-danger')]").getText());
     // await browser.waitUntil(
     //   async () => (await $('#signInBtn').getAttribute('value')) === 'Sign In',

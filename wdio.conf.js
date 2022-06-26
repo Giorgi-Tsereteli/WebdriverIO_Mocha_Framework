@@ -21,8 +21,15 @@ exports.config = {
   // will be called from there.
   //
 
-  //specs: ['./test/specs/**/*.js'],  // <--- Return to default value if u mess something up
-  specs: ['./test/specs/e2e_example.js'],
+  // You can create your own custom suites like in TestNG
+  // use command npx wdio run wdio.conf.js --suite suiteName
+  suites: {
+    suiteNameOne: ['test/specs/SelectDropdown.js', 'test/specs/SelectDropdown.js'],
+    suiteNameTwo: ['test/specs/TableSort_Arrays.js']
+  },
+
+  specs: ['./test/specs/**/*.js'], // <--- Return to default value if u mess something up
+  //specs: ['./test/specs/RadioButtons.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -57,6 +64,12 @@ exports.config = {
       maxInstances: 5,
       //
       browserName: 'chrome',
+      // Uncomment following to use headless mode
+      // 'goog:chromeOptions': {
+      //   // to run chrome headless the following flags are required
+      //   // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
+      //   args: ['--headless', '--disable-gpu']
+      // },
       acceptInsecureCerts: true
       // If outputDir is provided WebdriverIO can capture driver session logs
       // it is possible to configure which logTypes to include/exclude.

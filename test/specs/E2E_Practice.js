@@ -28,18 +28,18 @@ describe('E2E example', async () => {
 
     // It did not let me use split() on getText()
     let cartItemPrices = await $$('//tr/td[4]/strong');
-    let trimmedPrices = await Promise.all(
+    let formatedPriceArr = await Promise.all(
       await cartItemPrices.map(async (item) => await item.getText())
     );
 
-    let combinedPrice = trimmedPrices
+    let totalCartItemPrice = formatedPriceArr
       .map((price) => parseInt(price.split(' ')[1]))
       .reduce((total, eachPrice) => total + eachPrice, 0);
 
     let totalFromWebsite = await $('//h3/strong').getText(); // again, not letting me do split()
     totalFromWebsite = await parseInt(await totalFromWebsite.split(' ')[1]);
 
-    await expectchai(await parseInt(totalFromWebsite)).to.equal(combinedPrice);
+    await expectchai(await parseInt(totalFromWebsite)).to.equal(totalCartItemPrice);
 
     await $('(//tr//td[5]//button)[3]').click();
 
