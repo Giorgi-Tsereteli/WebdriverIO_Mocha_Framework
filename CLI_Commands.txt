@@ -1,0 +1,11 @@
+Command for basic run:
+    npx wdio run wdio.conf.js
+
+Command to run specific spec file:
+    npx wdio run wdio.conf.js --spec test/specs/fileName.js
+
+Command to run specific Tag(For exampple: Smoke):
+    npx wdio run wdio.conf.js --mochaOpts.grep tagName
+
+Command to run your custom suite:
+    npx wdio run wdio.conf.js --suite suiteName 

@@ -1,5 +1,5 @@
 describe('Handling multiple windows', async () => {
-  it('Switch to second window', async () => {
+  it('Switch to second window Sanity', async () => {
     await browser.url('https://www.rahulshettyacademy.com/loginpagePractise/');
     console.log(await browser.getTitle());
     await $("//*[@class='blinkingText']").click();
