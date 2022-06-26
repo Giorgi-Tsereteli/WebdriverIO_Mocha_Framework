@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-11",
+    "children" : [ {
+      "name" : "Switch to second window Sanity",
+      "uid" : "d7f64813d35ec1c",
+      "parentUid" : "5628020176bea062b297e8cab1a084d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656276462358,
+        "stop" : 1656276474281,
+        "duration" : 11923
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Switch to second window Sanity",
+      "uid" : "7eb0cd030eb2a4be",
+      "parentUid" : "5628020176bea062b297e8cab1a084d9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656278118978,
+        "stop" : 1656278120514,
+        "duration" : 1536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "5628020176bea062b297e8cab1a084d9"
+  } ]
+}

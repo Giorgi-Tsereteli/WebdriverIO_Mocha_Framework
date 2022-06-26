@@ -2,7 +2,7 @@ describe('Handling multiple windows', async () => {
   it('Switch to second window Sanity', async () => {
     await browser.url('https://www.rahulshettyacademy.com/loginpagePractise/');
     console.log(await browser.getTitle());
-    await $("//*[@class='blinkingText']").click();
+    //await $("//*[@class='blinkingText']").click();
     const allWindows = await browser.getWindowHandles();
     await browser.switchToWindow(allWindows[1]);
     console.log(await browser.getTitle());

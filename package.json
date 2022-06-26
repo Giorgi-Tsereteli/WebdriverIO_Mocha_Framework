@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "devDependencies": {
+        "@wdio/allure-reporter": "^7.20.3",
         "@wdio/cli": "^7.20.3",
         "@wdio/local-runner": "^7.20.3",
         "@wdio/mocha-framework": "^7.20.3",
@@ -11,7 +12,10 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "wdio": "wdio run wdio.conf.js",
+        "generateReport":"allure generate allure-results && allure open",
+        "smoke": " npx wdio run wdio.conf.js --mochaOpts.grep Smoke",
+        "sanity": " npx wdio run wdio.conf.js --mochaOpts.grep Sanity"
     },
     "dependencies": {
         "chai": "^4.3.6"

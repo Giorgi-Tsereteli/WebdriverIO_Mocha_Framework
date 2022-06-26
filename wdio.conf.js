@@ -85,6 +85,7 @@ exports.config = {
   //
   // Level of logging verbosity: trace | debug | info | warn | error | silent
   logLevel: 'info',
+
   //
   // Set specific log levels per logger
   // loggers:
@@ -154,7 +155,19 @@ exports.config = {
   mochaOpts: {
     ui: 'bdd',
     timeout: 60000
-  }
+  },
+
+  reporters: [
+    // place allure reports after default reporters: ['spec']
+    // Otherwise, it will overwrite allure
+    [
+      'allure',
+      {
+        outputDir: 'allure-results',
+        disableWebdriverScreenshotsReporting: false
+      }
+    ]
+  ],
   //
   // =====
   // Hooks
@@ -249,8 +262,15 @@ exports.config = {
    * @param {Boolean} result.passed    true if test has passed, otherwise false
    * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
    */
-  // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-  // },
+  afterTest: async function (
+    test,
+    context,
+    { error, result, duration, passed, retries }
+  ) {
+    if (error) {
+      await browser.takeScreenshot();
+    }
+  }
 
   /**
    * Hook that gets executed after the suite has ended

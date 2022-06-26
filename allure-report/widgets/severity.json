@@ -1,0 +1,11 @@
+[ {
+  "uid" : "7eb0cd030eb2a4be",
+  "name" : "Switch to second window Sanity",
+  "time" : {
+    "start" : 1656278118978,
+    "stop" : 1656278120514,
+    "duration" : 1536
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
