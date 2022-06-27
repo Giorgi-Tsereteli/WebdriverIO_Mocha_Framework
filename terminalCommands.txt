@@ -8,4 +8,10 @@ Command to run specific Tag(For exampple: Smoke):
     npx wdio run wdio.conf.js --mochaOpts.grep tagName
 
 Command to run your custom suite:
-    npx wdio run wdio.conf.js --suite suiteName 
+    npx wdio run wdio.conf.js --suite suiteName
+
+You created custom sctripts in package.json
+Refer to that file to see all your custom commands
+For example: npm run generateReport or npm run tagName
+
+Later, rewrite all commands and tagnames so everything makes sense when u read

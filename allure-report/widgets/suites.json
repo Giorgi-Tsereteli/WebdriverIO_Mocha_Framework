@@ -1,5 +1,5 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "1132c762974567b2d71d1c08304d10ba",
     "name" : "Handling multiple windows",
@@ -8,6 +8,17 @@
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f77db024817c02960cbbdb7c5f8c9f2c",
+    "name" : "Radio Buttons Automation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

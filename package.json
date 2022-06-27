@@ -13,7 +13,7 @@
     },
     "scripts": {
         "wdio": "wdio run wdio.conf.js",
-        "generateReport":"allure generate allure-results && allure open",
+        "generateReport":"allure generate allure-results --clean && allure open",
         "smoke": " npx wdio run wdio.conf.js --mochaOpts.grep Smoke",
         "sanity": " npx wdio run wdio.conf.js --mochaOpts.grep Sanity"
     },

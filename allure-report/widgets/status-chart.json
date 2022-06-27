@@ -1,11 +1,21 @@
 [ {
-  "uid" : "7eb0cd030eb2a4be",
+  "uid" : "79eac6feb5c085be",
   "name" : "Switch to second window Sanity",
   "time" : {
-    "start" : 1656278118978,
-    "stop" : 1656278120514,
-    "duration" : 1536
+    "start" : 1656284430537,
+    "stop" : 1656284432198,
+    "duration" : 1661
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "608306151c6a31b0",
+  "name" : "Select button Smoke",
+  "time" : {
+    "start" : 1656344707433,
+    "stop" : 1656344712637,
+    "duration" : 5204
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
