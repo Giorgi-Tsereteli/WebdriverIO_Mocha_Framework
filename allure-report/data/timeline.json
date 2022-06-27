@@ -5,7 +5,24 @@
     "name" : "0-11",
     "children" : [ {
       "name" : "Switch to second window Sanity",
-      "uid" : "d7f64813d35ec1c",
+      "uid" : "79eac6feb5c085be",
+      "parentUid" : "5628020176bea062b297e8cab1a084d9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656284430537,
+        "stop" : 1656284432198,
+        "duration" : 1661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Switch to second window Sanity",
+      "uid" : "1024b0f3430de716",
       "parentUid" : "5628020176bea062b297e8cab1a084d9",
       "status" : "passed",
       "time" : {
@@ -22,7 +39,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Switch to second window Sanity",
-      "uid" : "7eb0cd030eb2a4be",
+      "uid" : "aee2c27764d7c2fd",
       "parentUid" : "5628020176bea062b297e8cab1a084d9",
       "status" : "failed",
       "time" : {
@@ -34,10 +51,82 @@
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     } ],
     "uid" : "5628020176bea062b297e8cab1a084d9"
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "Select button Smoke",
+      "uid" : "e60a577b8ec1c734",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656284365841,
+        "stop" : 1656284370909,
+        "duration" : 5068
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Select button Smoke",
+      "uid" : "651c558897a12330",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656283863676,
+        "stop" : 1656283868742,
+        "duration" : 5066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Select button Smoke",
+      "uid" : "f15be2e9978cab40",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656284474746,
+        "stop" : 1656284479813,
+        "duration" : 5067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Select button Smoke",
+      "uid" : "608306151c6a31b0",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656344707433,
+        "stop" : 1656344712637,
+        "duration" : 5204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
   } ]
 }

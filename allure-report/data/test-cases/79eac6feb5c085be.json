@@ -1,12 +1,12 @@
 {
-  "uid" : "7eb0cd030eb2a4be",
+  "uid" : "79eac6feb5c085be",
   "name" : "Switch to second window Sanity",
   "fullName" : "Handling multiple windows.Switch to second window Sanity",
   "historyId" : "2aeb83b210fa53f4d3e14f0e1666bdb",
   "time" : {
-    "start" : 1656278118978,
-    "stop" : 1656278120514,
-    "duration" : 1536
+    "start" : 1656284430537,
+    "stop" : 1656284432198,
+    "duration" : 1661
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,7 +17,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 2,
   "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "testStage" : {
@@ -27,94 +27,94 @@
     "steps" : [ {
       "name" : "POST /session/:sessionId/url",
       "time" : {
-        "start" : 1656278118981,
-        "stop" : 1656278120020,
-        "duration" : 1039
+        "start" : 1656284430538,
+        "stop" : 1656284431705,
+        "duration" : 1167
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "8de97b9636068ff",
+        "uid" : "2ce353cb972fa112",
         "name" : "Request",
-        "source" : "8de97b9636068ff.json",
+        "source" : "2ce353cb972fa112.json",
         "type" : "application/json",
         "size" : 68
       } ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "shouldDisplayMessage" : false
     }, {
       "name" : "GET /session/:sessionId/title",
       "time" : {
-        "start" : 1656278120020,
-        "stop" : 1656278120023,
-        "duration" : 3
+        "start" : 1656284431705,
+        "stop" : 1656284431709,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "1c1b3b25089ac079",
+        "uid" : "e60a91ed72ef2a13",
         "name" : "Response",
-        "source" : "1c1b3b25089ac079.json",
+        "source" : "e60a91ed72ef2a13.json",
         "type" : "application/json",
         "size" : 43
       } ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "shouldDisplayMessage" : false
     }, {
       "name" : "GET /session/:sessionId/window/handles",
       "time" : {
-        "start" : 1656278120023,
-        "stop" : 1656278120026,
-        "duration" : 3
+        "start" : 1656284431709,
+        "stop" : 1656284431711,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "ab75619e9c4f749",
+        "uid" : "e4386ee0e080adda",
         "name" : "Response",
-        "source" : "ab75619e9c4f749.json",
+        "source" : "e4386ee0e080adda.json",
         "type" : "application/json",
         "size" : 49
       } ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "shouldDisplayMessage" : false
     }, {
       "name" : "GET /session/:sessionId/screenshot",
       "time" : {
-        "start" : 1656278120027,
-        "stop" : 1656278120514,
-        "duration" : 487
+        "start" : 1656284431712,
+        "stop" : 1656284432198,
+        "duration" : 486
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "c632f96d433ef61b",
+        "uid" : "bd749088da741150",
         "name" : "Screenshot",
-        "source" : "c632f96d433ef61b.png",
+        "source" : "bd749088da741150.png",
         "type" : "image/png",
         "size" : 897710
       } ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : true,
     "stepsCount" : 4,
     "attachmentsCount" : 4,
-    "shouldDisplayMessage" : true,
-    "hasContent" : true
+    "shouldDisplayMessage" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -152,7 +152,16 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "d7f64813d35ec1c",
+      "uid" : "aee2c27764d7c2fd",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1656278118978,
+        "stop" : 1656278120514,
+        "duration" : 1536
+      }
+    }, {
+      "uid" : "1024b0f3430de716",
       "status" : "passed",
       "time" : {
         "start" : 1656276462358,
@@ -167,6 +176,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "7eb0cd030eb2a4be.json",
+  "source" : "79eac6feb5c085be.json",
   "parameterValues" : [ "chrome-102.0.5005.115" ]
 }

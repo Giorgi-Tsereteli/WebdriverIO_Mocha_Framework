@@ -5,22 +5,43 @@
     "name" : "Handling multiple windows",
     "children" : [ {
       "name" : "Switch to second window Sanity",
-      "uid" : "7eb0cd030eb2a4be",
+      "uid" : "79eac6feb5c085be",
       "parentUid" : "77feb88bb1ae757c04256d32693ab9cb",
       "status" : "failed",
       "time" : {
-        "start" : 1656278118978,
-        "stop" : 1656278120514,
-        "duration" : 1536
+        "start" : 1656284430537,
+        "stop" : 1656284432198,
+        "duration" : 1661
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 2,
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-102.0.5005.115" ]
     } ],
     "uid" : "77feb88bb1ae757c04256d32693ab9cb"
+  }, {
+    "name" : "Radio Buttons Automation",
+    "children" : [ {
+      "name" : "Select button Smoke",
+      "uid" : "608306151c6a31b0",
+      "parentUid" : "f0d96281b266a5cc49c7129cfec85401",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656344707433,
+        "stop" : 1656344712637,
+        "duration" : 5204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "f0d96281b266a5cc49c7129cfec85401"
   } ]
 }

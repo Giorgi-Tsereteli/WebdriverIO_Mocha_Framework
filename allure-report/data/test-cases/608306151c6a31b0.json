@@ -1,0 +1,159 @@
+{
+  "uid" : "608306151c6a31b0",
+  "name" : "Select button Smoke",
+  "fullName" : "Radio Buttons Automation.Select button Smoke",
+  "historyId" : "88a455fdc78005e8b2d4b2de4817fec5",
+  "time" : {
+    "start" : 1656344707433,
+    "stop" : 1656344712637,
+    "duration" : 5204
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656344707433,
+        "stop" : 1656344708600,
+        "duration" : 1167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15ae1498ad681513",
+        "name" : "Request",
+        "source" : "15ae1498ad681513.json",
+        "type" : "application/json",
+        "size" : 68
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656344710605,
+        "stop" : 1656344710628,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d41f18704fb3482",
+        "name" : "Request",
+        "source" : "5d41f18704fb3482.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "f6e492e4fe9a837b",
+        "name" : "Response",
+        "source" : "f6e492e4fe9a837b.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/3e4eca74-fb8f-430a-a77b-7e7fe1901a9c/click",
+      "time" : {
+        "start" : 1656344710634,
+        "stop" : 1656344710666,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Radio Buttons Automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Radio Buttons Automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select button Smoke"
+  }, {
+    "name" : "package",
+    "value" : "Radio Buttons Automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f15be2e9978cab40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656284474746,
+        "stop" : 1656284479813,
+        "duration" : 5067
+      }
+    }, {
+      "uid" : "e60a577b8ec1c734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656284365841,
+        "stop" : 1656284370909,
+        "duration" : 5068
+      }
+    }, {
+      "uid" : "651c558897a12330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656283863676,
+        "stop" : 1656283868742,
+        "duration" : 5066
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "608306151c6a31b0.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
